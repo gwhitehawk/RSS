@@ -1,0 +1,22 @@
+<rss version="2.0">
+  <channel>
+    <title>RSS Test</title>
+    <link>http://localhost/</link>
+    <description>This is a test of the emergency RSS system.</description>
+    <language>en-us</language>
+
+    <item>
+      <title>First Item</title>
+      <description>First description</description>
+    </item>
+
+    <item>
+      <title>Second Item</title>
+      <description>Second description</description>
+    </item>
+
+    <item>
+      <description>Third item has only a description.</description>
+    </item>
+  </channel>
+</rss>

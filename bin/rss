@@ -1,0 +1,21 @@
+#! /usr/bin/env python
+"""
+RSS, Simply Syndicated
+
+Usage:
+    rss
+    rss get <url> ...
+
+Options:
+    -h --help    Show this screen
+    --version    Display version information
+
+"""
+
+from docopt import docopt
+
+from rss import __version__
+from rss.script import main
+
+
+main(docopt(__doc__, version=__version__))
